@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="ApellidoMC" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ApellidoPC" min="-2" max="-2" attributes="0"/>
+                                  <Component id="NombreC" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtNomC" min="-2" pref="160" max="-2" attributes="0"/>
+                                  <Component id="txtAppC" min="-2" pref="159" max="-2" attributes="0"/>
+                                  <Component id="txtApMatC" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="CelularC" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Correo" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtCorreo" min="-2" pref="160" max="-2" attributes="0"/>
+                                  <Component id="txtCelular" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="166" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="Generacion" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Tema" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Director" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Carrera" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Boleta" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                      <Component id="txtBoleta" pref="161" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtCarrera" max="32767" attributes="0"/>
+                                          <Component id="txtGeneracio" max="32767" attributes="0"/>
+                                          <Component id="txtTema" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtDirtesis" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                      <Component id="Trabajo" min="-2" pref="49" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="checkSI" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="checkNO" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="Horario" min="-2" pref="64" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtHorario1" min="-2" pref="53" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lblhorario" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="txtHorario2" min="-2" pref="53" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                      <Component id="Lugar" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="txtLugarTrabajo" min="-2" pref="154" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
+                                  <Component id="btnCancelar" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="btnRegistrar" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="btnAgregar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblFoto" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel1" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="ApellidoPC" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtAppC" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="NombreC" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtNomC" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="jLabel1" min="-2" pref="88" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ApellidoMC" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtApMatC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtCorreo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Correo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtCelular" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CelularC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtBoleta" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Boleta" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="37" pref="37" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txtCarrera" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Carrera" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtGeneracio" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Generacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="lblFoto" min="-2" pref="103" max="-2" attributes="0"/>
+                      <EmptySpace min="38" pref="38" max="-2" attributes="0"/>
+                      <Component id="btnAgregar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Tema" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtTema" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtDirtesis" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Director" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="checkNO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="checkSI" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Trabajo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Lugar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtLugarTrabajo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtHorario1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Horario" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtHorario2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblhorario" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnRegistrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="48" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="NombreC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ApellidoMC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido M"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ApellidoPC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido P"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Boleta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Boleta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Correo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Correo Electronico"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CelularC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Celular"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Carrera">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Carrera"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Generacion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Generacion"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Tema">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tema de Tesis"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Director">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Director de Tesis"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNomC">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtApMatC">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAppC">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtBoleta">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCorreo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCarrera">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCelular">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtGeneracio">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtTema">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDirtesis">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDirtesisActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFoto">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagenes/icono-de-archivo-de-foto_21208391.jpg"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="      FOTO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Trabajo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Trabaja :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Horario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Horario :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lugar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Lugar :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHorario1">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagenes/Logo-UACM@2x.png"/>
+        </Property>
+        <Property name="focusTraversalPolicyProvider" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic UI Semibold" size="24" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CANDIDATOS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="checkNO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NO"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="checkNOMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="checkSI">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SI"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="checkSIMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLugarTrabajo">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHorario2">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblhorario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="a"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAgregar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Agregar "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnRegistrar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Registrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegistrarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCancelar">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
